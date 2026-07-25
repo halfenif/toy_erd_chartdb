@@ -440,6 +440,8 @@ export const TableNodeField: React.FC<TableNodeFieldProps> = React.memo(
                                 !isDiffFieldChanged,
                         })}
                     >
+                        {field.comments}
+                        {' / '}
                         {fieldDiffChangedName ? (
                             <>
                                 {fieldDiffChangedName.old}{' '}

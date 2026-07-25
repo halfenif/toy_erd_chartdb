@@ -1,3 +1,5 @@
+# 기본기능으로 코멘트가 안 보여 수정시작
+
 <h1 align="center">
   <a href="https://chartdb.io#gh-light-mode-only">
     <img src="https://github.com/chartdb/chartdb/blob/main/src/assets/logo-light.png" width="400" height="70" alt="ChartDB">

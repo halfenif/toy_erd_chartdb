@@ -548,7 +548,8 @@ export const TableNode: React.FC<NodeProps<TableNodeType>> = React.memo(
                             ) : (
                                 <Table2 className="size-3.5 shrink-0 text-gray-600 dark:text-primary" />
                             )}
-
+                            {table.comments}
+                            {' / '}
                             {tableChangedName ? (
                                 <Label className="flex h-5 items-center justify-center truncate rounded-sm bg-sky-200 px-2 py-0.5 text-sm font-normal text-sky-900 dark:bg-sky-800 dark:text-sky-200">
                                     <span className="truncate">

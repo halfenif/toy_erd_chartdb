@@ -281,7 +281,7 @@ export const TableListItemHeader: React.FC<TableListItemHeaderProps> = ({
                                 onDoubleClick={enterEditMode}
                                 className="text-editable truncate px-2 py-0.5"
                             >
-                                {table.name}
+                                {table.comments} / {table.name}
                                 <span className="text-xs text-muted-foreground">
                                     {schemaToDisplay
                                         ? ` (${schemaToDisplay})`
